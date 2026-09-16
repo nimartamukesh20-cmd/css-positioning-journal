@@ -1,0 +1,139 @@
+/* ============================================
+   HENRY'S JOURNAL - CSS POSITIONING EXERCISE
+   STARTER TEMPLATE - FILL IN THE BLANKS!
+   ============================================
+   
+   Complete the TODOs below to style the journal.
+   Refer to instructions for detailed guidance.
+   
+   Author: Fnu Nimarta 
+   Date: 09/16/2026
+============================================ */
+
+/* ============================================
+   STEP 1: BASE RESET & TYPOGRAPHY
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* ============================================
+   STEP 2: MAIN CONTAINER
+   ============================================
+   TODO: Add styles to create:
+   - White background
+   - Max width of 960px
+   - Center it horizontally
+   - Add padding and border radius
+============================================ */
+
+#main-container {
+    /* YOUR CODE HERE */
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+/* ============================================
+   STEP 3: HEADER STYLING
+   ============================================
+   TODO: Style the header with padding,
+   background color, and text alignment
+============================================ */
+
+#header-box {
+    /* YOUR CODE HERE */
+    padding: 20px;
+    background-color: #e0e0e0;
+    text-align: center;
+    
+}
+
+/* ============================================
+   STEP 4: CREATE TWO-COLUMN LAYOUT
+   ============================================
+   TODO: Use float to create sidebar (25%) 
+   and content area (75%)
+============================================ */
+
+#sidebar {
+    /* YOUR CODE HERE */
+    float: left;
+    width: 25%;
+    
+}
+
+#content-area {
+    /* YOUR CODE HERE */
+    float: left;
+    width: 75%
+    
+}
+
+/* ============================================
+   STEP 5: CLEARFIX FOR PARENT COLLAPSE
+   ============================================
+   TODO: Add clearfix to main-container
+============================================ */
+
+#main-container::after {
+    /* YOUR CODE HERE */
+    content: "";
+    display: table;
+    clear:both;
+    
+}
+
+/* ============================================
+   STEP 6: STYLE JOURNAL ENTRIES
+   ============================================
+   TODO: Add spacing, borders, and styling
+============================================ */
+
+.journal-entry {
+    /* YOUR CODE HERE */
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.entry-image {
+    /* YOUR CODE HERE */
+    /* Add picture frame effect */
+    border: 5px solid white;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* ============================================
+   STEP 7: RESPONSIVE DESIGN
+   ============================================
+   TODO: Make layout stack on mobile
+============================================ */
+
+@media (max-width: 768px) {
+    /* YOUR CODE HERE */
+    #sidebar
+    #content-area {
+        float: none;
+        width: 100%
+    }
+    
+}
