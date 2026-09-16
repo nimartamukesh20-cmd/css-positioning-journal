@@ -6,11 +6,7 @@
    Complete the TODOs below to style the journal.
    Refer to instructions for detailed guidance.
    
-<<<<<<< HEAD
    Author: Krishna Charitha Kidambi
-=======
-   Author: Fnu Nimarta 
->>>>>>> da3e7980fc4a793c0c140529e6afa8290f3ca990
    Date: 09/16/2026
 ============================================ */
 
@@ -84,7 +80,7 @@ body {
 #content-area {
     /* YOUR CODE HERE */
     float: left;
-    width: 75%
+    width: 75%;
     
 }
 
@@ -134,10 +130,10 @@ body {
 
 @media (max-width: 768px) {
     /* YOUR CODE HERE */
-    #sidebar
+    #sidebar,
     #content-area {
         float: none;
-        width: 100%
+        width: 100%;
     }
     
 }
