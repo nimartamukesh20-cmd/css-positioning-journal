@@ -141,7 +141,7 @@ body {
 .entry-image {
     /* YOUR CODE HERE */
     /* Add picture frame effect */
-    float: left;
+    float: right;
     margin-right: 15px;
     border: 12px solid #fff;
     padding: 8px;
